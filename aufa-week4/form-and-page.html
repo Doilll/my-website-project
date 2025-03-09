@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Mandiri Week 4</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="h-14 bg-red-500 flex items-center px-6">
+    <h2 class="text-white font-serif text-2xl">Klinikin</h2>
+    <input type="text" 
+        class="w-1/2 mx-auto p-2 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-900" 
+        placeholder="Cari sesuatu...">
+
+        <button class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+          Login
+      </button>
+  </nav>
+  <div class="h-screen bg-red-400 p-10">
+    <h1 class="text-2xl p-10 ml-60 font-extrabold text-white">Selamat datang orang sakit</h1>
+    
+    <!-- Container untuk card -->
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-4 w-3/5 mx-auto">
+        
+        <!-- Card 1 -->
+        <div class="flex bg-white rounded-md">
+            <img src="dbd.jpg" alt="foto" class="h-20 w-20 rounded-l-md">
+            <div class="p-2">
+                <p class="font-bold">Demam Berdarah</p>
+                <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repudiandae.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flex bg-white rounded-md">
+            <img src="flu.jpg" alt="foto" class="h-20 w-20 rounded-l-md">
+            <div class="p-2">
+                <p class="font-bold">Flu Berat</p>
+                <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repudiandae.</p>
+            </div>
+        </div>
+
+        <div class="flex bg-white rounded-md">
+          <img src="muntaber.jpg" alt="foto" class="h-20 w-20 rounded-l-md">
+          <div class="p-2">
+              <p class="font-bold">Muntaber</p>
+              <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repudiandae.</p>
+          </div>
+      </div>
+      <div class="flex bg-white rounded-md">
+        <img src="diare.jpg" alt="foto" class="h-20 w-20 rounded-l-md">
+        <div class="p-2">
+            <p class="font-bold">Diare</p>
+            <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repudiandae.</p>
+        </div>
+    </div>
+    <div class="flex bg-white rounded-md">
+      <img src="pilek.jpg" alt="foto" class="h-20 w-20 rounded-l-md">
+      <div class="p-2">
+          <p class="font-bold">Pilek</p>
+          <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repudiandae.</p>
+      </div>
+  </div>
+  <div class="flex bg-white rounded-md">
+    <img src="kesemutan.jpg" alt="foto" class="h-20 w-20 rounded-l-md">
+    <div class="p-2">
+        <p class="font-bold">Kesemutan</p>
+        <p class="text-xs">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, repudiandae.</p>
+    </div>
+</div>
+
+    </div>
+</div>
+
+  <div class="bg-gradient-to-b from-red-400 to bg-red-300 h-36"></div>
+  <div class="bg-red-300 min-h-screen pt-10">
+    <form class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md container mt-32">
+      <h2 class="text-xl font-semibold mb-4">Kamu lagi sakit ta?</h2>
+      
+      <label class="block mb-2 text-xs font-medium text-gray-700">Nama</label>
+      <input type="text" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-200 text-xs" placeholder="Masukkan nama">
+      
+      <label class="block mt-4 mb-2 text-xs font-medium text-gray-700">Umur</label>
+      <input type="number" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-200 text-xs" placeholder="Umur berapa?">
+      
+      <label class="block mt-4 mb-2 text-xs font-medium text-gray-700">Keluhan</label>
+      <input type="text" class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-200 text-xs" placeholder="Sakit Apa?">
+      
+      <button type="submit" class="mt-6 w-full bg-red-300 text-white p-2 rounded-lg hover:bg-red-400 text-sm">Mengeluh itu wajar kok</button>
+  </form>
+  </div>
+</body>
+</html>
